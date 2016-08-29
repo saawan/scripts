@@ -7,9 +7,6 @@ psa () {
   ps aux | grep $1
 }
 
-
-
-
 # Find a file with a pattern in name:
 function ff() { find . -type f -iname '*'"$*"'*' -ls ; }
 
